@@ -1,8 +1,7 @@
-# Need to add 
+# Need to add
 
-- Site Map info file in route 
+- Site Map info file in route
 - Public robot follow
-
 
 # Steps to follow for prisma Next Auth to work
 
@@ -13,6 +12,7 @@
 ```bash
 npx prisma migrate dev
 ```
+
 This will create an SQL migration file and execute it.
 
 3.) Generate Client

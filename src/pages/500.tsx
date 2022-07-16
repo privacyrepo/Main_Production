@@ -5,8 +5,8 @@ const Server: NextPage = () => {
     <div>
       <Head>
         <title>500</title>
-          </Head>
-          500 Error
+      </Head>
+      500 Error
     </div>
   )
 }

@@ -1,5 +1,4 @@
-# This will explain the purpose of each folder 
-
+# This will explain the purpose of each folder
 
 ## Component
 
@@ -9,7 +8,7 @@
 
 Components with user interaction, like user clicks and something shows, or dynamic data pulling.
 
-## Static 
+## Static
 
 These are components that mostly stay the same, but can sometimes change. Like change styles, or show or hide stuff depending on stuff but not on data or user actions.
 

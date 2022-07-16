@@ -5,8 +5,8 @@ const Error: NextPage = () => {
     <div>
       <Head>
         <title>404</title>
-          </Head>
-          404 Page
+      </Head>
+      404 Page
     </div>
   )
 }
