@@ -26,3 +26,18 @@ npx prisma generate
 ```bash
 npx prisma migrate dev
 ```
+
+
+# Future readings 
+
+Take inventory of your page types.
+
+- Page type
+- Where does the content come from
+- How often does it change
+- How many are there
+- for each page
+
+## Choose the right data fetching pattern
+
+Next js allows you to server and static but also have other methods.
