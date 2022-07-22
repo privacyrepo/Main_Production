@@ -1,4 +1,4 @@
-// build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+// build: Changes that affect dependencies (example scopes: gulp, broccoli, npm)
 // ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 // docs: Documentation only changes
 // feat: A new feature
@@ -13,7 +13,8 @@
 
 /*
 
-delete: pre-fix the message with this when you delete something and want to commit that
+delete: when you delete something 
+code: code you added but isn't a feature yet
 
 */
 
@@ -54,6 +55,7 @@ module.exports = {
         'security',
         'changeset',
         'delete',
+        "code",
       ],
     ],
   },
