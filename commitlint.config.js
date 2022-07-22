@@ -8,8 +8,7 @@
 // style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 // test: Adding missing tests or correcting existing tests
 
-
-// My Own commit messages 
+// My Own commit messages
 
 /*
 
@@ -55,7 +54,7 @@ module.exports = {
         'security',
         'changeset',
         'delete',
-        "code",
+        'code',
       ],
     ],
   },

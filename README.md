@@ -22,7 +22,6 @@ npx prisma generate
 npx prisma migrate dev
 ```
 
-
 # Steps to follow for Auth to work
 
 - Have a `secret`
@@ -36,7 +35,7 @@ npx prisma migrate dev
 # What this project contains:
 
 - Next Auth
-- Prisma 
+- Prisma
 - Tailwind
 - Husky
 - Prettier
