@@ -8,6 +8,15 @@
 // style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 // test: Adding missing tests or correcting existing tests
 
+
+// My Own commit messages 
+
+/*
+
+delete: pre-fix the message with this when you delete something and want to commit that
+
+*/
+
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
@@ -44,6 +53,7 @@ module.exports = {
         'translation',
         'security',
         'changeset',
+        'delete',
       ],
     ],
   },
