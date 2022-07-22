@@ -1,7 +1,6 @@
 import { SessionProvider } from 'next-auth/react'
 import '../styles/globals.css'
 
-import { ThemeProvider as ComponentProvider } from '@material-tailwind/react'
 import { GlobalLayout } from '../layouts'
 import type { AppProps } from 'next/app'
 
@@ -10,11 +9,9 @@ import type { AppProps } from 'next/app'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <SessionProvider session={pageProps.session} refetchInterval={0}>
-      <ComponentProvider>
         <GlobalLayout>
           <Component {...pageProps} />
         </GlobalLayout>
-      </ComponentProvider>
     </SessionProvider>
   )
 }
