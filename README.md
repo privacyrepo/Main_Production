@@ -27,8 +27,7 @@ npx prisma generate
 npx prisma migrate dev
 ```
 
-
-# Future readings 
+# Future readings
 
 Take inventory of your page types.
 
