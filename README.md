@@ -28,6 +28,11 @@ npx prisma migrate dev
 - Have a `JWT secret`
 - As well as the `id` and `url` for your `auth` provider
 
+# Steps to follow for SEO to work
+
+- `next-sitemap` add url to website
+- `/public/site.webmanifest` add the necessary names
+- In the `SEO` component fill in the fields for your website
 # Thing you could add in future
 
 - Next Themes
@@ -41,3 +46,4 @@ npx prisma migrate dev
 - Prettier
 - EsLint
 - Recoil
+- Next SEO
