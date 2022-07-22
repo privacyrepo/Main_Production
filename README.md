@@ -28,3 +28,16 @@ npx prisma migrate dev
 - Have a `secret`
 - Have a `JWT secret`
 - As well as the `id` and `url` for your `auth` provider
+
+# Thing you could add in future
+
+- Next Themes
+
+# What this project contains:
+
+- Next Auth
+- Prisma 
+- Tailwind
+- Husky
+- Prettier
+- EsLint
