@@ -33,6 +33,7 @@ npx prisma migrate dev
 - `next-sitemap` add url to website
 - `/public/site.webmanifest` add the necessary names
 - In the `SEO` component fill in the fields for your website
+
 # Thing you could add in future
 
 - Next Themes

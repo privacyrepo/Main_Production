@@ -1,6 +1,6 @@
 // templateAtom
 
-import { atom } from "recoil";
+import { atom } from 'recoil'
 
 export const templateAtom = atom({
   key: 'templateAtom', // unique ID (with respect to other atoms/selectors)

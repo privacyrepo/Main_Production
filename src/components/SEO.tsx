@@ -2,9 +2,6 @@ import { DefaultSeo, NextSeo, NextSeoProps } from 'next-seo'
 import Head from 'next/head'
 import { DefaultSeoProps } from 'next-seo'
 
-interface SEOProps {}
-
-
 export interface Props extends NextSeoProps {
   title?: string
   description?: string
@@ -16,7 +13,6 @@ const title = ''
 export const url = ''
 const description = ''
 const image = ''
-
 
 /** Add website @ twitter */
 const config: DefaultSeoProps = {
