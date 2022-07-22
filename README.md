@@ -40,3 +40,4 @@ npx prisma migrate dev
 - Husky
 - Prettier
 - EsLint
+- Recoil
