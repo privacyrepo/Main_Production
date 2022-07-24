@@ -1,4 +1,4 @@
-import { Footer, Header } from '../components'
+import { Footer, Navigation } from '../components'
 
 interface GlobalLayoutProps {
   children: React.ReactNode
@@ -7,7 +7,7 @@ interface GlobalLayoutProps {
 export const GlobalLayout: React.FC<GlobalLayoutProps> = ({ children }) => {
   return (
     <>
-      <Header />
+      <Navigation />
       <main>{children}</main>
       <Footer />
     </>
