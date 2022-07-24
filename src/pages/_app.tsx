@@ -5,7 +5,7 @@ import type { AppProps } from 'next/app'
 
 import 'styles/globals.css'
 
-import { GlobalLayout } from '../layouts'
+import { GlobalLayout } from 'layouts'
 
 // Use of the <SessionProvider> is mandatory to allow components that call
 // `useSession()` anywhere in your application to access the `session` object.
