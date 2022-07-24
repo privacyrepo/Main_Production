@@ -48,3 +48,8 @@ npx prisma migrate dev
 - EsLint
 - Recoil
 - Next SEO
+
+
+# Mentions
+
+- [redirect feat](https://www.youtube.com/watch?v=VP-RCddbjrc)
