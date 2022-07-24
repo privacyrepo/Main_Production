@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { GetServerSidePropsContext, NextPage } from 'next'
 import Head from 'next/head'
 import { getSession } from 'next-auth/react'
 const notHittable: NextPage = () => {
@@ -13,8 +13,8 @@ const notHittable: NextPage = () => {
 }
 export default notHittable
 
-export async function getServerSideProps(ctx: any) {
-  const session = await getSession(ctx)
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const session = await getSession(context)
 
   if (!session) {
     return {
