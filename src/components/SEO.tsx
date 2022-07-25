@@ -1,5 +1,6 @@
 import { DefaultSeo, NextSeo, NextSeoProps } from 'next-seo'
 import { DefaultSeoProps } from 'next-seo'
+
 import Head from 'next/head'
 
 export interface Props extends NextSeoProps {

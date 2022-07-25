@@ -3,7 +3,14 @@
   "tabWidth": 2,
   "semi": false,
   "singleQuote": true,
-  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrder": [
+    "^(next/(.*)$)|^(next$)",
+    "^<THIRD_PARTY_MODULES>",
+    "^lib/(.*)$",
+    "^layouts/(.*)$",
+    "^components/(.*)$",
+    "^styles[./]"
+  ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
 }
