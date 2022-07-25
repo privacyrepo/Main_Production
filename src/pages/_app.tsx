@@ -1,7 +1,7 @@
 import { SessionProvider } from 'next-auth/react'
 import { RecoilRoot } from 'recoil'
-
 import type { AppProps } from 'next/app'
+import { ThemeProvider } from 'next-themes'
 
 import 'styles/globals.css'
 
@@ -14,7 +14,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <SessionProvider session={pageProps.session} refetchInterval={0}>
       <RecoilRoot>
         <GlobalLayout>
-          <Component {...pageProps} />
+          <ThemeProvider defaultTheme="system" attribute="class">
+            <Component {...pageProps} />
+          </ThemeProvider>
         </GlobalLayout>
       </RecoilRoot>
     </SessionProvider>
