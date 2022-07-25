@@ -1,5 +1,6 @@
-import { CSSProperties, useState } from 'react'
-import ClipLoader from 'react-spinners/ClipLoader'
+import { CSSProperties, useState } from 'react';
+import {ClockLoader, BarLoader, BeatLoader, BounceLoader } from 'react-spinners'
+
 
 const override: CSSProperties = {
   display: 'block',
@@ -20,12 +21,13 @@ function App() {
         placeholder="Color of the loader"
       />
 
-      <ClipLoader
-        color={color}
-        loading={loading}
-        cssOverride={override}
-        size={150}
-      />
+     <ClockLoader />
+     <BarLoader />
+    
+<BeatLoader />
+
+<BounceLoader />
+<h1>More</h1>
     </div>
   )
 }
