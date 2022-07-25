@@ -1,22 +1,11 @@
 # This will explain the purpose of each folder
 
-## Component
+# Component
 
-### Components will be split into:
+Where re-useable or sections of a page will go
 
-## Islands
 
-Components with user interaction, like user clicks and something shows, or dynamic data pulling.
-
-## Static
-
-These are components that mostly stay the same, but can sometimes change. Like change styles, or show or hide stuff depending on stuff but not on data or user actions.
-
-## Hooks
-
-This will be custom hooks made by you that you will use throughout your application
-
-## Layouts
+# Layouts
 
 This will hold the design layout of your application
 
@@ -24,8 +13,20 @@ Like having a global layout that covers all pages, to layouts that cover specifi
 
 Follow Next js recommended method for making these.
 
-## Lib
+# Lib
 
-### library's
+Where client instances will live
 
-This will contain instances of external library's or there logic.
+# Pages
+
+Where website routes and pages will live
+
+# API
+
+where auth and api routes will live
+
+# Auth
+
+Where the next js instance will live for providers and auth handling
+
+
