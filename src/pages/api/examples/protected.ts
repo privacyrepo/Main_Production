@@ -1,8 +1,9 @@
 // This is an example of to protect an API route
-import { authOptions } from '../auth/[...nextauth]'
+import type { NextApiRequest, NextApiResponse } from 'next'
+
 import { unstable_getServerSession } from 'next-auth/next'
 
-import type { NextApiRequest, NextApiResponse } from 'next'
+import { authOptions } from '../auth/[...nextauth]'
 
 export default async function handler(
   req: NextApiRequest,

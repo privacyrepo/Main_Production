@@ -5,11 +5,15 @@
   "singleQuote": true,
   "importOrder": [
     "^(next/(.*)$)|^(next$)",
-    "^<THIRD_PARTY_MODULES>",
-    "^lib/(.*)$",
+    "^(next-auth/(.*)$)|^(next-auth$)",
+    "^(next-themes/(.*)$)|^(next-themes$)",
+    "<THIRD_PARTY_MODULES>",
+    "next-seo.config",
     "^layouts/(.*)$",
     "^components/(.*)$",
-    "^styles[./]"
+    "^styles/(.*)$",
+    "^lib/(.*)$",
+    "^[./]"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true

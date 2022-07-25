@@ -1,9 +1,11 @@
-import { GlobalLayout } from 'layouts'
-import { SessionProvider } from 'next-auth/react'
-import { ThemeProvider } from 'next-themes'
-import { RecoilRoot } from 'recoil'
-
 import type { AppProps } from 'next/app'
+
+import { SessionProvider } from 'next-auth/react'
+
+import { ThemeProvider } from 'next-themes'
+
+import { GlobalLayout } from 'layouts'
+import { RecoilRoot } from 'recoil'
 
 import 'styles/globals.css'
 

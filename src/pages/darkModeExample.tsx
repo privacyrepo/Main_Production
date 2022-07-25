@@ -1,9 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import { useTheme } from 'next-themes'
-import { useEffect, useState } from 'react'
-
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
+import { useTheme } from 'next-themes'
+
+import { useEffect, useState } from 'react'
 
 const darkModeExample: NextPage = () => {
   const [mounted, setMounted] = useState(false)
