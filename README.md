@@ -34,7 +34,6 @@ npx prisma migrate dev
 - `/public/site.webmanifest` add the necessary names
 - In the `SEO` component fill in the fields for your website
 
-
 # What this project contains:
 
 - Next Auth

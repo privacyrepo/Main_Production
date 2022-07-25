@@ -5,8 +5,8 @@ import { SessionProvider } from 'next-auth/react'
 import { ThemeProvider as DarkModeThemeProvider } from 'next-themes'
 
 import { GlobalLayout } from 'layouts'
-import { SkeletonTheme as SkeletonThemeProvider} from 'react-loading-skeleton'
-import { RecoilRoot as StateManager} from 'recoil'
+import { SkeletonTheme as SkeletonThemeProvider } from 'react-loading-skeleton'
+import { RecoilRoot as StateManager } from 'recoil'
 
 import 'styles/globals.css'
 
