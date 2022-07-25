@@ -44,6 +44,7 @@ npx prisma migrate dev
 - Next SEO
 - Next themes
 - React skeleton
+- react-spinners
 
 # Mentions
 
