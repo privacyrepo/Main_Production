@@ -34,20 +34,16 @@ npx prisma migrate dev
 - `/public/site.webmanifest` add the necessary names
 - In the `SEO` component fill in the fields for your website
 
-# Thing you could add in future
-
-- Next Themes
 
 # What this project contains:
 
 - Next Auth
 - Prisma
 - Tailwind
-- Husky
-- Prettier
-- EsLint
 - Recoil
 - Next SEO
+- Next themes
+- React skeleton
 
 # Mentions
 

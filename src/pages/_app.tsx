@@ -2,10 +2,11 @@ import type { AppProps } from 'next/app'
 
 import { SessionProvider } from 'next-auth/react'
 
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider as DarkModeThemeProvider } from 'next-themes'
 
 import { GlobalLayout } from 'layouts'
-import { RecoilRoot } from 'recoil'
+import { SkeletonTheme as SkeletonThemeProvider } from 'react-loading-skeleton'
+import { RecoilRoot as StateManager } from 'recoil'
 
 import 'styles/globals.css'
 
@@ -14,13 +15,15 @@ import 'styles/globals.css'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <SessionProvider session={pageProps.session} refetchInterval={0}>
-      <RecoilRoot>
-        <GlobalLayout>
-          <ThemeProvider defaultTheme="system" attribute="class">
-            <Component {...pageProps} />
-          </ThemeProvider>
-        </GlobalLayout>
-      </RecoilRoot>
+      <StateManager>
+        <DarkModeThemeProvider defaultTheme="system" attribute="class">
+          <SkeletonThemeProvider>
+            <GlobalLayout>
+              <Component {...pageProps} />
+            </GlobalLayout>
+          </SkeletonThemeProvider>
+        </DarkModeThemeProvider>
+      </StateManager>
     </SessionProvider>
   )
 }
