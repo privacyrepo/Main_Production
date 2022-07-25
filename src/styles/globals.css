@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    body{
-        @apply font-[Roboto]
-    }
+  body {
+    @apply font-[Roboto];
+  }
 }

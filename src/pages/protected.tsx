@@ -1,6 +1,7 @@
 import type { GetServerSidePropsContext, NextPage } from 'next'
-import Head from 'next/head'
 import { getSession } from 'next-auth/react'
+import Head from 'next/head'
+
 const notHittable: NextPage = () => {
   return (
     <div>

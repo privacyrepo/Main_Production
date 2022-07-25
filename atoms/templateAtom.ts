@@ -1,5 +1,4 @@
 // templateAtom
-
 import { atom } from 'recoil'
 
 export const templateAtom = atom({

@@ -1,11 +1,9 @@
-import { SessionProvider } from 'next-auth/react'
-import { RecoilRoot } from 'recoil'
-import type { AppProps } from 'next/app'
-import { ThemeProvider } from 'next-themes'
-
-import 'styles/globals.css'
-
 import { GlobalLayout } from 'layouts'
+import { SessionProvider } from 'next-auth/react'
+import { ThemeProvider } from 'next-themes'
+import type { AppProps } from 'next/app'
+import { RecoilRoot } from 'recoil'
+import 'styles/globals.css'
 
 // Use of the <SessionProvider> is mandatory to allow components that call
 // `useSession()` anywhere in your application to access the `session` object.
