@@ -9,7 +9,7 @@ export const Navigation: React.FC<NavigationProps> = () => {
         <ul role="list">
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a>nav</a>
             </Link>
           </li>
         </ul>
