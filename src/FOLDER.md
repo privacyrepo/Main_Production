@@ -4,7 +4,6 @@
 
 Where re-useable or sections of a page will go
 
-
 # Layouts
 
 This will hold the design layout of your application
@@ -28,5 +27,3 @@ where auth and api routes will live
 # Auth
 
 Where the next js instance will live for providers and auth handling
-
-
