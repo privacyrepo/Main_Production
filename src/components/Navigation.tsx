@@ -6,7 +6,7 @@ export const Navigation: React.FC<NavigationProps> = () => {
   return (
     <header>
       <nav>
-        <ul>
+        <ul role="list">
           <li>
             <Link href="/">
               <a>Home</a>
